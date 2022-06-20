@@ -1,0 +1,49 @@
+.body-left {
+    height: 100vh
+}
+.container {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+}
+.body-container {
+    
+}
+
+.banner {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    overflow: hidden;
+    
+}
+.slide {
+    transition: all 0.5s;
+    width: 1000000px
+}
+.body-container .banner img {
+    height: 250px;
+    /* width: 1200px; */
+    float: left;
+    /* position: absolute; */
+}
+.body-container .banner button {
+    position: absolute;
+    z-index: 1;
+    right: -5px;
+    top: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    background-color: rgba(230, 230, 230, 0);
+
+}
+
+.body-container .banner button img{
+    height: 30px;
+    display: none;
+}
+.body-container .banner:hover button img{
+    display: block;
+}
